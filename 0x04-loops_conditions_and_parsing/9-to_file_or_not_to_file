@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#  Bash script that gives you information about the school file.
+# Displays information about the `school` file. 
 
 if [ -e "school" ]
 then
@@ -13,7 +13,7 @@ then
 
   if [ -f "school" ]
   then
-    echo "school file is a regular file"
+    echo "school is a regular file"
   fi
 else
   echo "school file does not exist"
